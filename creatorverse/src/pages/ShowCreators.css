@@ -1,0 +1,47 @@
+.show-creators-container {
+  background-color: #1c2833;
+  padding: 40px 20px;
+  min-height: 100vh;
+  height: 100vh; /* Set height to 100% of the viewport */
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.header {
+  flex-shrink: 0; /* Prevent header from shrinking */
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 20px;
+  color: #ecf0f1;
+}
+
+.creators-grid {
+  flex-grow: 1; /* Allow grid to grow and take up remaining space */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+  gap: 30px; /* Spacing between the cards */
+  justify-content: center;
+  padding-bottom: 20px; /* Extra space at the bottom to ensure all cards are visible */
+}
+
+.add-button {
+  background-color: #9b59b6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+}
+
+.add-button:hover {
+  background-color: #8e44ad;
+}
+

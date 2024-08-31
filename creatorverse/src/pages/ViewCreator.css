@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1c2833; 
+    font-family: 'Poppins', sans-serif;
+    color: #ecf0f1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .view-creator-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto; 
+    text-align: center;
+  }
+  
+  .creator-image-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #34495e;
+  }
+  
+  .creator-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    border-radius: 12px; 
+  }
+  
+  .creator-content h2 {
+    font-size: 2rem; 
+    color: #9b59b6;
+    margin-bottom: 20px;
+  }
+  
+  .creator-description {
+    font-size: 1.2rem; 
+    margin-bottom: 20px;
+    color: #bdc3c7; 
+  }
+  
+  .visit-channel-button {
+    background-color: #9b59b6; 
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    display: inline-block; 
+  }
+  
+  .visit-channel-button:hover {
+    background-color: #8e44ad;
+  }
+  
+  .loading-text {
+    color: #ecf0f1;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+ 
+  .creator-image-container {
+    margin-top: 500px; 
+    text-align: center; 
+  }
+  
+  .creator-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
