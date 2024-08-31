@@ -33,7 +33,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-<img src='https://i.imgur.com/vd4A0IA.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+![web103-prework-walkthrough (1)](https://github.com/user-attachments/assets/da4c8f43-ede5-4cd5-8a5e-91a8423e2e42)
 
 ## License
 
