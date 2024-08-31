@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/a/caLyzu1' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![video-web103](https://github.com/user-attachments/assets/e504683b-68ea-4d29-9133-4bf828206478)
 
 ## License
 
